@@ -37,6 +37,26 @@ body {
   text-decoration: underline;
 }
 
+.breadcrumb {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 1rem 0;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #444;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb .current {
+  color: #000;
+  font-weight: 500;
+}
+
 .hero h2 {
   font-size: 2.2rem;
   margin-top: 2rem;
