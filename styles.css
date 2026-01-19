@@ -144,6 +144,39 @@ p {
   max-width: 75ch;
 }
 
+/* Footer */
+.site-footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  border-top: 1px solid #ddd;
+  background-color: #fafafa;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.footer-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.footer-links {
+  margin-bottom: 0.8rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #444;
+  margin: 0 0.2rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-meta {
+  color: #777;
+}
+
 .page-footer {
   margin-top: 3rem;
   padding-top: 1.5rem;
